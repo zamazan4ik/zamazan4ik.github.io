@@ -1,7 +1,7 @@
 main:
   - title: "About me"
     url: /about/
-  - title: "Videos"
-    url: /videos/
+  - title: "Talks"
+    url: /talks/
   - title: "Publications"
     url: /publications/ 
