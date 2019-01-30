@@ -14,13 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Here should be a title
+name: "Alexander Zaitsev"
 email: zamazan4ik@tut.by
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Alexander Zaitsev's home page        
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zamazan4ik.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zamazan4ik
 github_username:  zamazan4ik
 
@@ -31,6 +30,51 @@ minimal_mistakes_skin: "neon"
 plugins:
   - jekyll-feed
   - jekyll-include-cache   
+
+# Site Author
+author:
+  name             : "Alexander Zaitsev"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "C++ developer"
+  location         : "Minsk, Belarus"
+  email            : "zamazan4ik@tut.by"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://zamazan4ik.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/zamazan4ik"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/ZaMaZaN4iK"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zamazan4ik"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/zamazan4ik"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/ZaMaZaN4iK"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/zamazan4ik"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/zamazan4ik"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/zamazan4ik/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
