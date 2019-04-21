@@ -15,8 +15,12 @@ I am a C++ developer who is made in 1 October, 1997.
 * Sanitizers: Google sanitizers (undefined, address, thread, etc.)
 
 #Open source activities:
-* Bincrafters: packaging several libraries for Conan package manager - packed a lot of different libraries
-* Boost: add several algorithms to Boost.Algorithm library
+* Bincrafters: packaging several libraries for Conan package manager - packed a lot of different libraries (espessialy image libraries)
+* Boost: added several algorithms to Boost.Algorithm library
+* Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer)
+* gImageReader: implemented better PDF support
+* A lot of small fixes in several libraries and applications (see GitHub account history)
 
 #Other achievements:
 * Volunteering on CppNow 2017 in Aspen, Colorado, USA
+* Volunteering on CppCon 2018 in Bellevue, Washington, USA
