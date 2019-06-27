@@ -21,7 +21,7 @@ I am a C++98/11/14/17/20/bleeding edge developer who is made in 1 October, 1997.
 * Fuzzers: AFL, LibFuzzer
 * Profilers: Visual Studio built-in, Intel Vtune, Valgrind, CodeXL, Instruments (a little bit), perf, heaptrack
 * Sanitizers: Google sanitizers (undefined, address, thread, etc.)
-* CI: TravisCI, Appveyor
+* CI: TeamCity, TravisCI, Appveyor
 * Issue tracker: JIRA, Phabricator
 
 #Other languages:
@@ -43,5 +43,7 @@ I am a C++98/11/14/17/20/bleeding edge developer who is made in 1 October, 1997.
 * Volunteering on CppCon 2018 in Bellevue, Washington, USA
 
 #Work experience:
-* Feb 2018 - NOW: Solarwinds. Work on Cloud To Cloud backup solution
-* June 2016 - Feb 2018: CIB Software. Worked on document and image processing libraries
+* Feb 2018 - NOW: Solarwinds. Work on Cloud To Cloud backup solution. Solution performs cloud backup for several Microsoft solutions like Exchange, OneDrive, SharePoint. Use: C++14, CMake, gtest, google sanitizers, fuzzers (AFL, LibFuzzer), Gerrit, Git.
+* Feb 2017 - Feb 2018: CIB Software, CIB Optical Character Recognition (CIB OCR). Lbrary provides extended optical character recognition solution based on open-source Tesseract library. I've extended image preprocessing before OCR. Worked on architecture design, implementing new functionality, bug fixing, unit and manual testing, planning work, collecting requirements from clients, maintaining and releasing the library. Used: C++11, CMake, tesseract. Supported platforms: Windows 32/64, Linux 32/64, AIX, Solaris, Android 32/64.
+* Feb 2017 - Feb 2018: CIB Software, CIB Image Processing Library (CIB IPL). Library performs different image processing algorithms like different binarizations, deskew, automatic rotating, autocrop, etc. Also I've worked on implementing Mixed Raster Compression (MRC) for PDF archiving. Mostly worked on architecture design, implementing new functionality, bug fixing, unit and manual testing, planning work, collecting requirements from clients, maintaining and releasing the library. Used: C++11, CMake, OpenCV, ImageMagick, leptonica, google-sanitizers, valgrind, gtest, etc. Supported platforms: Windows 32/64, Linux 32/64, AIX, Solaris, Android 32/64.
+* June 2016 - Feb 2017: CIB Software, CIB PDF Brewer project - the application for making PDF documents from Microsoft Office (and other offices) products with some interesting PDF features. Worked mostly on bug fixing and implementing new functionality, manual testing. Used: C++11, C#, WinAPI. Supported platforms: Windows, Linux.
