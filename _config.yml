@@ -52,9 +52,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zamazan4ik"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 footer:
   links:
@@ -73,9 +70,9 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/zamazan4ik/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Gitea"
+      icon: "fab fa-git"
+      url: "https://zamgit.duckdns.org"  
 
 paginate: 5 # amount of posts to show
 paginate_path: /blog/page:num
