@@ -49,6 +49,7 @@ I am a C++98/11/14/17/20/bleeding edge developer who is made in 1 October, 1997.
 * June 2016 - Feb 2017: CIB Software, CIB PDF Brewer project - the application for making PDF documents from Microsoft Office (and other offices) products with some interesting PDF features. Worked mostly on bug fixing and implementing new functionality, manual testing. Used: C++11, C#, WinAPI. Supported platforms: Windows, Linux.
 
 #Other stuff
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBFwapzYBCACYTfSyMJOL/32VZslYQI+MWP57B9MYxNG9Z3+/yiAOA6pKpQHh
