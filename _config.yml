@@ -45,33 +45,14 @@ linkedin_username: zamazan4ik
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Here should be a title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Alexander and I'm a yet another software engineer. I am mostly interested in developing any kind of robust modern applications (games, cloud-native apps, whatever). Also I really like to administrate Linux-servers (probably some piece of my soul was a DevOooooops in a previous life :)
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so that list is for you: Windows (since XP), Linux(Debian and RedHat based, mostly Fedora), docker, podman, containerd, Kubernetes, Helm, ArgoCD, vagrant, VirtualBox, KVM, qemu, Vusual Studio (since 2010), CLion, Clang, GCC, MSVC, ICC, PVS-Studio, Clang Static Analyzer, Clang Tidy. CppCheck, git (console, TortoiseGit, GitKraken, CLion), SVN, Gerrit, GitHub, GitLab, BitBucket, Gitea, AFL, LibFuzzer, Intel VTune, perf, heaptrack, CodeXL, Google sanitizers, TeamCity, TravisCI, Appveyor, GitHub Actions, JIRA, Phabricator, C++, Rust, a little bit of Python/C#/Bash. And I can continue :)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -81,7 +62,7 @@ content:
         sub_title: Software engineer (mostly C++)
         caption: February 2018 - Now
         description:
-            Working on CloudToCloud product - a backup solution for Office365.
+            Working on Cloud-To-Cloud product - a backup solution for Office365.
       - layout: left
         title: CIB Software
         # link: boringcompany.com
@@ -103,6 +84,23 @@ content:
       - Corehard 2018 Spring "Profiling programs for C++" (ru)([video](https://www.youtube.com/watch?v=V1SN_IuUh7s))
       - LVEE 2018 Summer "Automatic bug search in C/C++" (ru)([video](https://www.youtube.com/watch?v=PiVgqEyBqT8))
       - CoreHard 2018 Autumn "What cannot be optimized by C++ compilers" (ru)([video](https://www.youtube.com/watch?v=dAmhGElNUX0))
+
+  - title: Publications
+    layout: text
+    content: |
+      - Several C++ proposals ([Add more std::hash specializations](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1406r0.html), [Changing attack vector of the constexpr_vector](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0639r0.html), bunch of proposals about constexprifying C++ containers, Numerics TS)
+      - Some Habr publications ([Algorithms for palindrom search](https://habr.com/ru/post/276195/), [Conan: package manager for C++ (ru)](https://habr.com/ru/post/342982/))
+  
+  - title: Open Source activities
+    layout: text
+    content: |
+      I really love all kind of open source projects, so trying to something to do something fine :)
+      - In the past was an active Russiam WG21 member (C++ standardization committee): writing and reviewing proposals
+      - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (espessialy image libraries)
+      - Boost: added several algorithms to Boost.Algorithm library
+      - Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer, my own analyzer as a diploma project)
+      - gImageReader: implemented better PDF support
+      - A lot of small fixes in several libraries and applications (see GitHub account history)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
