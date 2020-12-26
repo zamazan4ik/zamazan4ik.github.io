@@ -69,6 +69,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Dependency managers: Conan, Cargo
     - CI: TeamCity, TravisCI, Appveyor, GitHub Actions
     - Task trackers: JIRA, Phabricator, GitHub projects
+    - Cloud providers: AWS (ECS, SNS, SQS, SES)
     - Libraries: Oh... I've used so many libraries that there is no reason to list them here. Just ask me :)
 
 content:
@@ -80,7 +81,7 @@ content:
         link: https://solarwinds.com
         sub_title: Software engineer (mostly C++)
         caption: February 2018 - Now
-        description:
+        description: |
           - Working on Cloud-To-Cloud product - a backup solution for Office365. So here I got large experience with Microsoft Graph API, EWS, SharePoint Online REST API.
       - layout: left
         title: CIB Software
