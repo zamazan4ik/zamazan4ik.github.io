@@ -48,29 +48,48 @@ linkedin_username: zamazan4ik
 about_title: Here should be a title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Alexander and I'm a yet another software engineer. I am mostly interested in developing any kind of robust modern applications (games, cloud-native apps, whatever). Also I really like to administrate Linux-servers (probably some piece of my soul was a DevOooooops in a previous life :)
+  Hi, my name is Alex and I'm a yet another software engineer. I am mostly interested in developing any kind of robust modern applications (games, cloud-native apps, whatever else). Also I really like to administrate Linux-based systems (probably some piece of my soul was a DevOooooops in a previous life :)
 
-  I am most skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so that list is for you: Windows (since XP), Linux(Debian and RedHat based, mostly Fedora), docker, podman, containerd, Kubernetes, Helm, ArgoCD, vagrant, VirtualBox, KVM, qemu, Vusual Studio (since 2010), CLion, Clang, GCC, MSVC, ICC, PVS-Studio, Clang Static Analyzer, Clang Tidy. CppCheck, git (console, TortoiseGit, GitKraken, CLion), SVN, Gerrit, GitHub, GitLab, BitBucket, Gitea, AFL, LibFuzzer, Intel VTune, perf, heaptrack, CodeXL, Google sanitizers, TeamCity, TravisCI, Appveyor, GitHub Actions, JIRA, Phabricator, C++, Rust, a little bit of Python/C#/Bash. And I can continue :)
+  I am most skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so this list is for you:
+    - Languages: C++, Rust. Also have some experience with C#, Java, Python, Bash
+    - Boring languages: Russian (native), English (really I don't the exact level. I think it's something like Intermediate-Upper Intermediate)
+    - OS: Linux (Debian and RedHat based, mostly Fedora), Windows (since XP). Prefer Linux as a workstation. Have experiance with maintaing own home-based Linux server. At work also have experience with administarting Linux-based machines (on-premise and EC2-based instances)
+    - Target OS: Since I am a C++ developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris
+    - Containers: Docker, podman, containerd, a little-bit CRI-U
+    - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k8s single-node cluster for pet projects. Related to k8s projects, which I use or used: calico, cilium, Helm, ArgoCD
+    - Virtualization: Vagrant, VirtualBox, KVM, qemu
+    - Automation: Ansible, k6
+    - IDE: Vusual Studio (since 2010), CLion. Prefer CLion as a default IDE (even if I hate Java :). Also have some experience with Qt Creator, Dev-C++, Eclipse, NetBeans, all Intelij-IDEA-based IDEs
+    - Compilers: Clang, GCC, MSVC, a little bit ICC and EDG, rustc. Mostly use GCC, Clang and rustc
+    - Static analysis: PVS-Studio, Clang Static Analyzer, Clang Tidy, CppCheck. Have experience with implementing own Clang-Tidy checks
+    - VCS: git (console, TortoiseGit, GitKraken, integrated into CLion), SVN, Gerrit, GitHub, GitLab, BitBucket, self-hosted Gitea. And yeah - I know the difference between git and GitHub :)
+    - Fuzzers: AFL, LibFuzzer. Have experience with implementing fuzzer checks in production
+    - Sanitizers: Google sanitizers, Valgrind
+    - Profilers: Intel VTune, perf, heaptrack, CodeXL, Valgrind
+    - Dependency managers: Conan, Cargo
+    - CI: TeamCity, TravisCI, Appveyor, GitHub Actions
+    - Task trackers: JIRA, Phabricator, GitHub projects
+    - Libraries: Oh... I've used so many libraries that there is no reason to list them here. Just ask me :)
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Solarwinds
-        link: https://solarwinds.io
+        title: SolarWinds
+        link: https://solarwinds.com
         sub_title: Software engineer (mostly C++)
         caption: February 2018 - Now
         description:
-            Working on Cloud-To-Cloud product - a backup solution for Office365.
+          - Working on Cloud-To-Cloud product - a backup solution for Office365. So here I got large experience with Microsoft Graph API, EWS, SharePoint Online REST API.
       - layout: left
         title: CIB Software
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: C++ developer
+        sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
-            CIB PDF Brewer, CIB OCR, CIB IPL.
+          - CIB PDF Brewer - Windows desktop application which works with printers. Also was integrated into MS Office application as an addin.
+          - CIB OCR - own Tesseract-based OCR system with several enchancements
+          - CIB IPL - proprietary OpenCV-based library with different classic computer vision algorithm. My own project - PRLib - was mostly inspired by IPL: [link](https://github.com/ZaMaZaN4iK/prlib)
 
   - title: Conferences
     layout: text
@@ -94,9 +113,9 @@ content:
   - title: Open Source activities
     layout: text
     content: |
-      I really love all kind of open source projects, so trying to something to do something fine :)
-      - In the past was an active Russiam WG21 member (C++ standardization committee): writing and reviewing proposals
-      - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (espessialy image libraries)
+      I really love all kind of open source projects, so trying to do something fine :)
+      - In the past was an active Russian WG21 member (C++ standardization committee): writing and reviewing proposals
+      - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (especialyl core image libraries)
       - Boost: added several algorithms to Boost.Algorithm library
       - Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer, my own analyzer as a diploma project)
       - gImageReader: implemented better PDF support
