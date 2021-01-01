@@ -52,23 +52,25 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so this list is for you:
     - Languages: C++, Rust. Also have some experience with C#, Java, Python, Bash
-    - Boring languages: Russian (native), English (really I don't the exact level. I think it's something like Intermediate-Upper Intermediate)
-    - OS: Linux (Debian and RedHat based, mostly Fedora), Windows (since XP). Prefer Linux as a workstation. Have experiance with maintaing own home-based Linux server. At work also have experience with administarting Linux-based machines (on-premise and EC2-based instances)
-    - Target OS: Since I am a C++ developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris
-    - Containers: Docker, podman, containerd, a little-bit CRI-U
+    - Boring languages: Russian (native), English (really I don't know the exact level. I think it's something like Intermediate-Upper Intermediate)
+    - OS: Linux (Debian and RedHat based, mostly Fedora), Windows (since XP). Prefer Linux as a workstation. Have experience with maintaining own home-based Linux server. At work also have experience with administarting Linux-based machines (on-premise, VRA-based and EC2-based instances)
+    - Target OS: Since I am a C++ developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris platforms
+    - Containers: Docker, podman, containerd, CRI-U (a little bit)
     - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k8s single-node cluster for pet projects. Related to k8s projects, which I use or used: calico, cilium, Helm, ArgoCD
     - Virtualization: Vagrant, VirtualBox, KVM, qemu
     - Automation: Ansible, k6
     - IDE: Vusual Studio (since 2010), CLion. Prefer CLion as a default IDE (even if I hate Java :). Also have some experience with Qt Creator, Dev-C++, Eclipse, NetBeans, all Intelij-IDEA-based IDEs
     - Compilers: Clang, GCC, MSVC, a little bit ICC and EDG, rustc. Mostly use GCC, Clang and rustc
     - Static analysis: PVS-Studio, Clang Static Analyzer, Clang Tidy, CppCheck. Have experience with implementing own Clang-Tidy checks
-    - VCS: git (console, TortoiseGit, GitKraken, integrated into CLion), SVN, Gerrit, GitHub, GitLab, BitBucket, self-hosted Gitea. And yeah - I know the difference between git and GitHub :)
-    - Fuzzers: AFL, LibFuzzer. Have experience with implementing fuzzer checks in production
-    - Sanitizers: Google sanitizers, Valgrind
+    - VCS: git (console, TortoiseGit, GitKraken, integrated into CLion), SVN (TortoiseSVN), Gerrit, GitHub, GitLab, BitBucket, self-hosted Gitea. And yeah - I know the difference between git and GitHub :)
+    - Fuzzers: AFL, LibFuzzer. Have experience with implementing custom fuzzer checks in production (LibFuzzer-based)
+    - Sanitizers: Google sanitizers, Valgrind (isn't actually a sanitizer :)
     - Profilers: Intel VTune, perf, heaptrack, CodeXL, Valgrind
-    - Dependency managers: Conan, Cargo
+    - Build systems: CMake, Cargo
+    - Dependency managers: Conan, Cargo, vcpkg (a little bit)
     - CI: TeamCity, TravisCI, Appveyor, GitHub Actions
     - Task trackers: JIRA, Phabricator, GitHub projects
+    - Workflow: Scrum, Kanban
     - Cloud providers: AWS (ECS, SNS, SQS, SES)
     - Libraries: Oh... I've used so many libraries that there is no reason to list them here. Just ask me :)
 
@@ -88,9 +90,9 @@ content:
         sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
-          - CIB PDF Brewer - Windows desktop application which works with printers. Also was integrated into MS Office application as an addin.
+          - CIB PDF Brewer - Windows desktop application which works with printers. Also was integrated into MS Office (Word, Excel, PowerPoint) application as an addin.
           - CIB OCR - own Tesseract-based OCR system with several enchancements
-          - CIB IPL - proprietary OpenCV-based library with different classic computer vision algorithm. My own project - PRLib - was mostly inspired by IPL: [link](https://github.com/ZaMaZaN4iK/prlib)
+          - CIB IPL - proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithm. My own project - PRLib - was mostly inspired by IPL: [link](https://github.com/ZaMaZaN4iK/prlib)
 
   - title: Conferences
     layout: text
