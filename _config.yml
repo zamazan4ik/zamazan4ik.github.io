@@ -53,9 +53,9 @@ about_content: | # this will include new lines to allow paragraphs
   I am mostly skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so this list is for you:
     - Languages: C++98/11/14/17/20 (since 2010-2011. Since 2016 in production), Rust (since 2020). Also have some experience with C#, Java, Python, Bash
     - Boring languages: Russian (native), English (really I don't know the exact level. I think it's something like Intermediate-Upper Intermediate)
-    - OS: Linux (Debian and RedHat based, mostly Fedora), Windows (since XP). Prefer Linux as a workstation. Have experience with maintaining own home-based Linux server (Fedora Server). At work also have experience with administarting Linux-based machines (on-premise, VRA-based and EC2-based instances)
+    - OS: Linux (Debian and RedHat based, mostly Ubutnu and Fedora), Windows (since XP). Prefer Linux as a workstation. Have experience with maintaining own home-based Linux server (Fedora Server). At work also have experience with administarting Linux-based machines (on-premise, VRA-based and AWS EC2-based instances)
     - Target OS: Since I am mostly a C++/Rust developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris platforms
-    - Containers: Docker, podman, containerd, CRI-U (a little bit). Have experience with multi-stage builds, docker-compose and podman-compose
+    - Containers: docker, podman, containerd, CRI-U (a little bit). Have experience with multi-stage builds, docker-compose and podman-compose
     - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k8s single-node cluster for pet projects. Related to k8s projects, which I use or used at least a little bit: calico, cilium, Helm, ArgoCD. Also heard a little bit about Nomad, Docker Swarm, Mesos
     - Virtualization: Vagrant, VirtualBox, KVM, qemu. Had some experience with VMware Workstation
     - Automation: Ansible, Terraform, k6
@@ -75,7 +75,7 @@ about_content: | # this will include new lines to allow paragraphs
     - CD: Blue-Green and Canary deployment strategies
     - Task trackers: JIRA, Phabricator, GitHub Projects. Have some experience with Trello
     - Workflow: Scrum, Kanban
-    - Databases: SQLite, MySQL, PostgreSQL, DynamoDB. At university I've worked also with Oracle and MSSQL
+    - Databases: SQLite, MySQL, PostgreSQL, AWS DynamoDB. At university I've worked also with Oracle and MSSQL
     - Message queues: NATS, SNS + SQS. I've read a lot about Kafka (and C++ version - RedPanda) and RabbitMQ
     - Cloud providers: AWS (ECS, EKS, SNS, SQS, SES, etc.), Localstack (for local env). Investigated a little bit Microsoft Azure
     - Design principles: SOLID, Gang of Four, Domain-Driven Design (DDD), Entity Component System (ECS), CQRS, ES
