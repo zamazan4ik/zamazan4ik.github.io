@@ -77,7 +77,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Workflow: Scrum, Kanban
     - Databases: SQLite, MySQL, PostgreSQL, AWS DynamoDB. At university I've worked also with Oracle and MSSQL
     - Message queues: NATS, SNS + SQS. I've read a lot about Kafka (and C++ version - RedPanda) and RabbitMQ
-    - Cloud providers: AWS (ECS, EKS, SNS, SQS, SES, etc.), Localstack (for local env). Investigated a little bit Microsoft Azure
+    - Cloud providers: AWS (ECS, EKS, SNS, SQS, SES, etc.), Localstack (for local env). Investigated a little bit Microsoft Azure, GCP, Cloudflare and Yandex Cloud
     - Design principles: SOLID, Gang of Four, Domain-Driven Design (DDD), Entity Component System (ECS), CQRS, ES
     - Architecture principles: SOA, microservices, Event-Driven Architecture (EDA)
     - Other tools: asciidoc (for docs-as-a-code), plantuml (diagram-as-a-code), draw.io
@@ -87,8 +87,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: SolarWinds
-        link: https://solarwinds.com
+        title: Pet project (YourGame)
+        sub_title: Architect/Developer (single person project)
+        caption: June 2020 - Now
+        description: |
+          - Highlight all possible stakeholders and work with them (that's not only me, fortunately :)
+          - Work with scenarios
+          - Work with stakeholders concerns and resolve conflicts between concerns in the architecture
+          - Work with functional and non-functional (quality) requirements
+          - Evaluate and adjust the architecture
+          - Prepare different models (text and boxes, UML diagrams). We use draw.io
+          - Implement and adjust ARD template (based on Arc42 template and "Viewpoints and Perspectives")
+          - Maintain ARD (AsciiDoc-based)
+          - Evaluate different public clouds from different perspectives: provided services, pricing, toolkit compatibility
+          - Implement Proof-Of-Concepts (e.g. ECS-based architecture evaluation)
+          - Design full application lifecycle: transformation requirements into the architecture, development, testing, deploy and operation
+          - Design CI process (CD coming soon)
+          - Choose technology stack (programming languages, main frameworks/game engines, deploy tooling, etc.)
+          - Use the following principles and design patterns: Twelve-factor, Event-Driven, Client-Server, Domain-Driven Design
+      - layout: left
+        title: N-able (SolarWinds)
+        link: https://n-able.com (https://solarwinds.com)
         sub_title: Software engineer (mostly C++)
         caption: February 2018 - Now
         description: |
@@ -106,6 +125,9 @@ content:
           - Implement several Proof-of-Concept for features like OneDrive restore
           - Debug on production several really difficult problems, related to C++ memory issues and undefined behaviours
           - Work with support team during as a on-duty developer
+          - Work in a geographically dispersed team
+          - Trying to push modern DevOps practices
+          - Evaluate provided ARD from the architects and provide the feedback as a developer representative
           - Participate in regular releases
       - layout: left
         title: CIB Software
