@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
     - OS: Linux (Debian and RedHat based, mostly Ubutnu and Fedora), Windows (since XP). Prefer Linux as a workstation. Have experience with maintaining own home-based Linux server (Fedora Server). At work also have experience with administarting Linux-based machines (on-premise, VRA-based and AWS EC2-based instances)
     - Target OS: Since I am mostly a C++/Rust developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris platforms
     - Containers: docker, podman, containerd, CRI-U (a little bit). Have experience with multi-stage builds, docker-compose and podman-compose
-    - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k8s single-node cluster for pet projects. Related to k8s projects, which I use or used at least a little bit: calico, cilium, Helm, ArgoCD. Also heard a little bit about Nomad, Docker Swarm, Mesos
+    - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k3s single-node cluster for pet projects. Related to k8s projects, which I use or used at least a little bit: calico, cilium, Helm, ArgoCD. Also heard a little bit about Nomad, Docker Swarm, Mesos
     - Virtualization: Vagrant, VirtualBox, KVM, qemu. Had some experience with VMware Workstation
     - Automation: Ansible, Terraform, k6
     - IDE: Visual Studio (since 2010), CLion, Unity Editor. Prefer CLion as a default IDE (even if I don't like Java :). Also have some experience with Qt Creator, Dev-C++, Eclipse, NetBeans, all Intelij-IDEA-based IDEs
@@ -92,19 +92,19 @@ content:
         caption: June 2020 - Now
         description: |
           - Highlight all possible stakeholders and work with them (that's not only me, fortunately :)
-          - Work with scenarios
+          - Work with use scenarios
           - Work with stakeholders concerns and resolve conflicts between concerns in the architecture
           - Work with functional and non-functional (quality) requirements
           - Evaluate and adjust the architecture
           - Prepare different models (text and boxes, UML diagrams). We use draw.io
-          - Implement and adjust ARD template (based on Arc42 template and "Viewpoints and Perspectives")
+          - Implement and adjust ARD template (based on Arc42 template and "Viewpoints and Perspectives" book)
           - Maintain ARD (AsciiDoc-based)
           - Evaluate different public clouds from different perspectives: provided services, pricing, toolkit compatibility
           - Implement Proof-Of-Concepts (e.g. ECS-based architecture evaluation)
           - Design full application lifecycle: transformation requirements into the architecture, development, testing, deploy and operation
           - Design CI process (CD coming soon)
           - Choose technology stack (programming languages, main frameworks/game engines, deploy tooling, etc.)
-          - Use the following principles and design patterns: Twelve-factor, Event-Driven, Client-Server, Domain-Driven Design
+          - Use the following principles and design patterns: Twelve-factor, Event-Driven, Client-Server, Domain-Driven Design, ECS-based approach
       - layout: left
         title: N-able (SolarWinds)
         link: https://n-able.com (https://solarwinds.com)
@@ -129,13 +129,15 @@ content:
           - Trying to push modern DevOps practices
           - Evaluate provided ARD from the architects and provide the feedback as a developer representative
           - Participate in regular releases
+          - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help architecture team with threat modeling tooling evaluation
+          - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready to use 3rd party solutions, imlpementing proof of concepts, COGS estimation, presenting results and much more)
       - layout: left
         title: CIB Software
         sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
           - I've worked on several projects: CIB PDF Brewer (Windows desktop application which works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithm), CIB OCR (proprietary Tesseract-based OCR system with several enchancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
-          - Being the only developer on IPL and OCR, so manage full lifecycle: several discussions with business and support, planning, make design and implementation, test (manual and with autotests), release
+            - Being the only developer on IPL and OCR, so manage full lifecycle: several discussions with business and support, planning, make design and implementation, test (manual and with autotests), release
           - Do research & development (R&D) for different image-related algorithms like Mixed-Raster Compression (MRC), real-time edge detection, PDF reverse engineering, etc.
           - Intergrate the libraries with other products
           - Help with long and short-term design for the libraries
@@ -148,8 +150,8 @@ content:
   - title: Conferences
     layout: text
     content: |
-      - A program committee member in CoreHard, do talks review for CppNow, CppCon, CoreHard conferences
-      - A semi-regular speaker (and regular attendee:) on a different conferences
+      - A program committee member in CoreHard and C++ Russia, do talks review for CppNow, CppCon, CoreHard, C++ Russia conferences
+      - A semi-regular speaker (and a regular attendee:) on a different conferences
       - CoreHard 2017 Spring "Boost.Algorithm" (ru)([video](https://www.youtube.com/watch?v=Xp2uo7pfHsM), [pdf](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/Boost.Algorithm/Boost%20Algorithm.pdf), [odp](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/Boost.Algorithm/Boost%20Algorithm.odp))
       - CoreHard 2017 Autumn "CppNow 2017 trip report" (ru)([video](https://www.youtube.com/watch?v=lr-QkC5885c), [pdf](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/CppNow2017trip_report/CppNow%20trip%20report.pdf), [odp](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/CppNow2017trip_report/CppNow%20trip%20report.odp))
       - CoreHard 2017 Autumn lightning talk "Fuzzy search" (ru)([video](https://www.youtube.com/watch?v=t1JYim0OQP8))
@@ -181,10 +183,11 @@ content:
       - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (especially core image libraries). Was a Conan advocate (now I am language-specific dependency manager advocate :)
       - Boost: added several utilities algorithms to Boost.Algorithm library. Work on fuzzy search algorithms
       - Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer, my own analyzer as a diploma project)
-      - PRLib - a library with several image preprocessing algorithms: [link](https://github.com/ZaMaZaN4iK/prlib)
+      - PRLib: a library with several image preprocessing algorithms: [link](https://github.com/ZaMaZaN4iK/prlib)
       - gImageReader: implemented better PDF support, small fixes
-      - A lot of small fixes in several libraries and applications (see GitHub account history)
+      - Maintain rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
       - Set of Rust Teloxide-based Telegram based for several chats: Npaperbot, supapro, codedetection and others
+      - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
   - title: Programming interests
     layout: text
