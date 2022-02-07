@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alexander Zaitsev
-title: Software engineer (mostly C++/Rust)
+title: Software engineer (mostly C++/Rust, sometimes DevOops)
 email: zamazan4ik@tut.by
 website: https://zamazan4ik.github.io
 
@@ -21,7 +21,7 @@ github_username:  zamazan4ik
 # dribbble_username: jekyll
 facebook_username: zamazan4ik
 # flickr_username: jekyll
-# instagram_username: jameswgrant
+# instagram_username: zamazan4ik
 linkedin_username: zamazan4ik
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -109,7 +109,7 @@ content:
         title: N-able (SolarWinds)
         link: https://n-able.com (https://solarwinds.com)
         sub_title: Software engineer (mostly C++)
-        caption: February 2018 - Now
+        caption: February 2018 - February 2022
         description: |
           - Work on Cloud-To-Cloud product - a backup solution for Office365. Here I've got the following experience:
           - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in-touch with Microsoft Graph API team for several workarounds
