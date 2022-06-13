@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alexander Zaitsev
-title: System architect, software engineer (mostly C++/Rust), sometimes DevOops
+title: Architect, software engineer (mostly C++/Rust), a little bit DevOps
 email: zamazan4ik@tut.by
 website: https://zamazan4ik.github.io
 
@@ -48,71 +48,22 @@ linkedin_username: zamazan4ik
 about_title: Here should be a title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Alex and I'm a yet another architect and software engineer. I am mostly interested in designing and developing any kind of robust modern applications (games, cloud-native apps, whatever else). Also, I really like to administrate Linux-based systems (probably some piece of my soul was a DevOooooops in a previous life :)
-
-  I am mostly skilled in: <mark>C++</mark>. If you are interested in my skills in OS/Tools/PLs/any_other_buzzword, so this list is for you:
-    - Languages: C++98/11/14/17/20 (since 2010-2011. Since 2016 in production), Rust (since 2020). Also have some experience with C#, Java, Python, Bash
-    - Boring languages: Russian (native), English (really I don't know the exact level. I think it's something like Intermediate-Upper Intermediate)
-    - OS: Linux (Debian and RedHat based, mostly Ubutnu and Fedora), Windows (since XP). Prefer Linux as a workstation. Have experience with maintaining own home-based Linux server (Fedora Server). At work also have experience with administarting Linux-based machines (on-premise, VRA-based and AWS EC2-based instances)
-    - Target OS: Since I am mostly a C++/Rust developer, usually I write cross-platform programs. I have experience with native applications for Linux-based, Windows-based, FreeBSD, macOS, Android, iOS, AIX, Solaris platforms
-    - Containers: docker, podman, containerd, CRI-U (a little bit). Have experience with multi-stage builds, docker-compose and podman-compose
-    - Orchestration: Kubernetes (minikube, k3s, kubeadm). At home maintain my own on-premise k3s single-node cluster for pet projects. Related to k8s projects, which I use or used at least a little bit: calico, cilium, Helm, ArgoCD. Also heard a little bit about Nomad, Docker Swarm, Mesos
-    - Virtualization: Vagrant, VirtualBox, KVM, qemu. Had some experience with VMware Workstation
-    - Automation: Ansible, Terraform, k6
-    - IDE: Visual Studio (since 2010), CLion, Unity Editor. Prefer CLion as a default IDE (even if I don't like Java :). Also have some experience with Qt Creator, Dev-C++, Eclipse, NetBeans, all Intelij-IDEA-based IDEs
-    - Compilers: Clang, GCC, MSVC, a little bit ICC and EDG, rustc. Mostly use GCC, Clang and rustc. For caches and/or distributed build I've used icecc, sccache, ccache
-    - Static analysis: PVS-Studio, Clang Static Analyzer, Clang Tidy, CppCheck. Have experience with implementing own Clang-Tidy checks
-    - Formatters: Clang-Format, uncrustify
-    - VCS: git (console, TortoiseGit, GitKraken, integrated into CLion), SVN (TortoiseSVN)
-    - VCS providers: GitHub, GitLab, BitBucket, self-hosted Gitea
-    - Code review: GitHub, BitBucket, Gerrit
-    - Fuzzers: AFL, LibFuzzer. Have experience with implementing custom fuzzer checks in production (LibFuzzer-based)
-    - Sanitizers: Google sanitizers, Valgrind (isn't actually a sanitizer :)
-    - Profilers: Intel VTune, perf, heaptrack, CodeXL, Valgrind, built-in into memory allocators profiler functionality
-    - Build systems: CMake, Cargo, custom build systems, Visual Studio Solutions. Heard or at least looked through build scripts for: Meson, Bazel, Autotools
-    - Dependency managers: Conan, Cargo, vcpkg (a little bit), managing dependencies with git submodules, SVN externals, downloading them from custom HTTP(S) server :)
-    - CI: TeamCity, TravisCI, Appveyor, GitHub Actions (I prefer it for my own projects). Heard a little bit about Codefresh, CircleCI
-    - CD: Blue-Green and Canary deployment strategies
-    - Task trackers: JIRA, Phabricator, GitHub Projects. Have some experience with Trello
-    - Workflow: Scrum, Kanban
-    - Databases: SQLite, MySQL, PostgreSQL, AWS DynamoDB. At university I've worked also with Oracle and MSSQL
-    - Message queues: NATS, SNS + SQS. I've read a lot about Kafka (and C++ version - RedPanda) and RabbitMQ
-    - Cloud providers: AWS (ECS, EKS, SNS, SQS, SES, etc.), Localstack (for local env). Investigated a little bit Microsoft Azure, GCP, Cloudflare and Yandex Cloud
-    - Design principles: SOLID, Gang of Four, Domain-Driven Design (DDD), Entity Component System (ECS), CQRS, ES
-    - Architecture principles: SOA, microservices, Event-Driven Architecture (EDA)
-    - Other tools: Markdown, Asciidoc (for docs-as-a-code), plantuml (diagram-as-a-code), draw.io
+  Hi, my name is Alex and I'm yet another architect. I am mostly interested in designing and developing any kind of robust modern application (like cloud-native apps).
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Pet project (YourGame)
-        sub_title: Architect/Developer (single person project)
-        caption: June 2020 - Now
-        description: |
-          - Highlight all possible stakeholders and work with them (that's not only me, fortunately :)
-          - Work with use scenarios
-          - Work with stakeholders concerns and resolve conflicts between concerns in the architecture
-          - Work with functional and non-functional (quality) requirements
-          - Evaluate and adjust the architecture
-          - Prepare different models (text and boxes, UML diagrams). We use draw.io
-          - Implement and adjust ARD template (based on Arc42 template and "Viewpoints and Perspectives" book)
-          - Maintain ARD (AsciiDoc-based)
-          - Evaluate different public clouds from different perspectives: provided services, pricing, toolkit compatibility
-          - Implement Proof-Of-Concepts (e.g. ECS-based architecture evaluation)
-          - Design full application lifecycle: transformation requirements into the architecture, development, testing, deploy and operation
-          - Design CI process (CD coming soon)
-          - Choose technology stack (programming languages, main frameworks/game engines, deploy tooling, etc.)
-          - Use the following principles and design patterns: Twelve-factor, Event-Driven, Client-Server, Domain-Driven Design, ECS-based approach
-      - layout: left
         title: TCP-Soft
         link: https://tcp-soft.com
-        sub_title: System Architect
+        sub_title: Architect
         caption: February 2022 - now
         description: |
-          - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solution, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size and using proper Java GC, scalability)
-          - Help with preparing documentation template for the architecture department in the company, evaluating existing practices and improving them
+          - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
+          - Help with preparing documentation templates for the architecture department in the company, evaluating existing practices, and improving them
+          - Eliminating production data usage in different test environments across the company: tweak human and tools workflows, introduce data generation techniques
+          - Tools: Confluence, Jira, Draw.io/plantuml
       - layout: left
         title: N-able (SolarWinds)
         link: https://n-able.com (https://solarwinds.com)
@@ -120,34 +71,34 @@ content:
         caption: February 2018 - February 2022
         description: |
           - Work on Cloud-To-Cloud product - a backup solution for Office365. Here I've got the following experience:
-          - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in-touch with Microsoft Graph API team for several workarounds
-          - Being a part of internal C++ committee. As a committee member, I've worked on internal C++ guidelines, adopting modern C++ features for the code base, investigating C++ Standard upgrade, choosing dependency manager, etc.
+          - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in touch with Microsoft Graph API team for several workarounds
+          - Being a part of an internal C++ committee. As a committee member, I've worked on internal C++ guidelines, adopted modern C++ features for the code base, investigated C++ Standard upgrades, helped with choosing dependency manager, etc.
           - Being a speaker on internal knowledge-sharing events (we call it TechCafe)
-          - Push using Clang-Format for our sources. Compared clang-format to another code formatting tools (like uncrustify), review several code styles, preparing clang-format builds and proper internal documentation
-          - Investigate using fuzzers (AFL, Libfuzeer-based) for some parts of our code
+          - Push using Clang-Format for our sources. Compared clang-format to code formatting tools (like uncrustify), review several code styles, preparing clang-format builds and proper internal documentation
+          - Investigate using fuzzers (AFL, Libfuzeer-based, self-hosted Oss-Fuzz) for some parts of our code
           - Push forward continuous performance testing
-          - Push forward using Google Sanitizers on CI as a part of internal workflow
-          - Help with building our solution on Windows platform with Clang
+          - Push forward using Google Sanitizers on CI as a part of an internal workflow
+          - Help with building our solution on Windows platform with Clang - fixing Clang-specific stuff on Windows
           - Port our solution to ARM architecture (AWS Graviton CPUs)
           - Design from the scratch storage format for SharePoint feature
           - Implement several Proof-of-Concept for features like OneDrive restore
           - Debug on production several really difficult problems, related to C++ memory issues and undefined behaviours
-          - Work with support team during as a on-duty developer
+          - Work with a support team as an on-duty developer
           - Work in a geographically dispersed team
           - Trying to push modern DevOps practices
           - Evaluate provided ARD from the architects and provide the feedback as a developer representative
           - Participate in regular releases
-          - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help architecture team with threat modeling tooling evaluation
-          - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready to use 3rd party solutions, imlpementing proof of concepts, COGS estimation, presenting results and much more)
+          - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help the architecture team with threat modeling tooling evaluation
+          - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready 3rd party solutions, implementing proof of concepts, COGS estimation, presenting results, and much more
       - layout: left
         title: CIB Software
         sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
-          - I've worked on several projects: CIB PDF Brewer (Windows desktop application which works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithm), CIB OCR (proprietary Tesseract-based OCR system with several enchancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
-            - Being the only developer on IPL and OCR, so manage full lifecycle: several discussions with business and support, planning, make design and implementation, test (manual and with autotests), release
+          - I've worked on several projects: CIB PDF Brewer (Windows desktop application that works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithms), CIB OCR (proprietary Tesseract-based OCR system with several enhancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
+          - Being the only developer on IPL and OCR, so manage the full lifecycle: several discussions with business and support, planning, make design and implementation, testing (manual and with autotests), release
           - Do research & development (R&D) for different image-related algorithms like Mixed-Raster Compression (MRC), real-time edge detection, PDF reverse engineering, etc.
-          - Intergrate the libraries with other products
+          - Integrate the libraries with other products
           - Help with long and short-term design for the libraries
           - Port the libraries to CMake from a custom build system
           - Port the libraries to Android x64
@@ -159,7 +110,7 @@ content:
     layout: text
     content: |
       - A program committee member in CoreHard and C++ Russia, do talks review for CppNow, CppCon, CoreHard, C++ Russia conferences
-      - A semi-regular speaker (and a regular attendee:) on a different conferences
+      - A semi-regular speaker (and a regular attendee:) in a different conferences
       - CoreHard 2017 Spring "Boost.Algorithm" (ru)([video](https://www.youtube.com/watch?v=Xp2uo7pfHsM), [pdf](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/Boost.Algorithm/Boost%20Algorithm.pdf), [odp](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/Boost.Algorithm/Boost%20Algorithm.odp))
       - CoreHard 2017 Autumn "CppNow 2017 trip report" (ru)([video](https://www.youtube.com/watch?v=lr-QkC5885c), [pdf](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/CppNow2017trip_report/CppNow%20trip%20report.pdf), [odp](https://github.com/ZaMaZaN4iK/ConfsANDProps/blob/master/Conferences/CppNow2017trip_report/CppNow%20trip%20report.odp))
       - CoreHard 2017 Autumn lightning talk "Fuzzy search" (ru)([video](https://www.youtube.com/watch?v=t1JYim0OQP8))
@@ -168,41 +119,54 @@ content:
       - Corehard 2018 Spring "Profiling programs for C++" (ru)([video](https://www.youtube.com/watch?v=V1SN_IuUh7s))
       - LVEE 2018 Summer "Automatic bug search in C/C++" (ru)([video](https://www.youtube.com/watch?v=PiVgqEyBqT8))
       - CoreHard 2018 Autumn "What cannot be optimized by C++ compilers" (ru)([video](https://www.youtube.com/watch?v=dAmhGElNUX0))
-      - CoreHard Zoom-based talk about culture of coding in C++ community
+      - CoreHard Zoom-based talk about a culture of coding in the C++ community
       - Was an invited expert on C++ Russia 2020, moderated several talks
 
   - title: Publications
     layout: text
     content: |
       - Several C++ proposals ([Add more std::hash specializations](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1406r0.html), [Changing attack vector of the constexpr_vector](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0639r0.html), bunch of proposals about constexprifying C++ containers, Numerics TS)
-      - My talks from LVEE conferences was published in an international digest
+      - My talks from the LVEE conferences were published in an international digest
       - Habr publications ([Algorithms for palindrom search](https://habr.com/ru/post/276195/), [Conan: package manager for C++ (ru)](https://habr.com/ru/post/342982/))
   
-  - title: Pet projects
+  - title: Pet project (YourGame)
     layout: text
     content: |
-      A have a bunch of small pet projects. For now I am working in a small team on a some game. The game uses client-server model. On the client we use Unity, backend is written mostly in Rust. I work on almost all parts of the game: game design, high-level and low-level architecture design, choosing technology stack, implementing a lot of PoC, actual coding, testing and of course DevOps part. Since we design it with scaling in mind, we actively use a lot of AWS services (and trying to accurately deal with possible vendor-lock)
+      - Highlight all possible stakeholders and work with them (that's not only me, fortunately :)
+      - Work with use scenarios
+      - Work with stakeholders' concerns and resolve conflicts between concerns in the architecture
+      - Work with functional and non-functional (quality) requirements
+      - Evaluate and adjust the architecture
+      - Prepare different models (text and boxes, UML diagrams). We use draw.io
+      - Implement and adjust the ARD template (based on Arc42 template and "Viewpoints and Perspectives" book)
+      - Maintain ARD (AsciiDoc-based)
+      - Evaluate different public clouds from different perspectives: provided services, pricing, toolkit compatibility
+      - Implement proof of concepts (e.g. ECS-based architecture evaluation)
+      - Design full application lifecycle: transformation requirements into the architecture, development, testing, deploy and operation
+      - Design CI process (CD coming soon)
+      - Choose technology stack (programming languages, main frameworks/game engines, deploy tooling, etc.)
+      - Use the following principles and design patterns: Twelve-factor, Event-Driven, Client-Server, Domain-Driven Design, ECS-based approach
 
   - title: Open Source activities
     layout: text
     content: |
-      I really love all kind of open source projects, so I'm trying to do something cool and/or useful :)
+      I love all kinds of open source projects, so I'm trying to do something cool and/or useful :)
       - In the past was an active Russian WG21 member (C++ standardization committee): writing and reviewing proposals
-      - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (especially core image libraries). Was a Conan advocate (now I am language-specific dependency manager advocate :)
-      - Boost: added several utilities algorithms to Boost.Algorithm library. Work on fuzzy search algorithms
-      - Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer, my own analyzer as a diploma project)
+      - Conan (Bincrafters): packaging several libraries for Conan package manager - packed a lot of different libraries (especially core image libraries). Was a Conan advocate (now I am a language-specific dependency manager advocate :)
+      - Boost: added several utility algorithms to Boost.Algorithm library. Work on fuzzy search algorithms
+      - Clang: work on static analysis tools (Clang Tidy, Clang Static Analyzer, my analyzer as a diploma project)
       - PRLib: a library with several image preprocessing algorithms: [link](https://github.com/ZaMaZaN4iK/prlib)
       - gImageReader: implemented better PDF support, small fixes
-      - Maintain rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
-      - Set of Rust Teloxide-based Telegram based for several chats: Npaperbot, supapro, codedetection and others
+      - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
+      - Set of Rust Teloxide-based Telegram based for several chats with large communities
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
   - title: Programming interests
     layout: text
     content: |
-      I had and have different interests in different computer science areas. Some years ago I was really crazy about image pre and post OCR processing. I've read a lot of information, publications, even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
+      I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I've read a lot of articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
 
-      Now for me is really interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems.
+      Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems.
 
   - title: Certificates
     layout: list
