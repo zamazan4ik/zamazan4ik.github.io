@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alexander Zaitsev
-title: Architect, software engineer (mostly C++/Rust), a little bit DevOps
+title: Solution Architect, software engineer (mostly C++/Rust), a little bit DevOps
 email: zamazan4ik@tut.by
 website: https://zamazan4ik.github.io
 
@@ -21,7 +21,7 @@ github_username:  zamazan4ik
 # dribbble_username: jekyll
 facebook_username: zamazan4ik
 # flickr_username: jekyll
-# instagram_username: zamazan4ik
+instagram_username: zamazan4ik
 linkedin_username: zamazan4ik
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -45,28 +45,33 @@ linkedin_username: zamazan4ik
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Here should be a title
+about_title: Here should be some serious title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Alex and I'm yet another architect. I am mostly interested in designing and developing any kind of robust modern application (like cloud-native apps).
+  Hi, my name is Alex and I'm a solution architect. I am mostly interested in designing and developing any kind of robust modern application (like cloud-native apps).
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: TCP-Soft (MangoTelecom)
-        link: https://tcp-soft.com
+        title: Byvoice (TCP-Soft, MangoTelecom)
+        link: https://www.byvoice.io (https://www.tcp-soft.com https://www.mango-office.ru)
         sub_title: Solution Architect
         caption: February 2022 - now
         description: |
-          - Help the Information Security department with defining and evaluating security guidelines
-          - Design storage for security-related events (SIEM) in the company
-          - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish initial communication with a vendor
+          - Work closely with the Information Security department with defining and evaluating security standards across the company
+          - Design storage for security-related events (ad-hoc SIEM) in the company
+          - Reviving an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks about serverless architecture, C++ standardization process, PGO, and more advanced post-link optimizations, etc.
+          - Mentoring system architects on different topics like modern monitoring approaches, k8s-native patterns, etc
+          - Start a process of migrating multiple log systems into the company-wide one, help with designing a central log system
+          - Design central secret storage (based on Hashicorp Vault) usage across the company: cluster design, integration into multiple workflows
+          - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish communication with multiple vendors
           - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
+          - Introduce initial cloud support to our on-premise only environment (an initial step on the hybrid-cloud journey)
           - Help with preparing documentation templates for the architecture department in the company, evaluating existing practices, and improving them
-          - Eliminating production data usage in different test environments across the company: tweak human and tools workflows, introduce data generation techniques
-          - Tools: Confluence, Jira, Draw.io
+          - Participate in regular architecture meetings, and provide valuable feedback regarding multiple internal processes
+          - Tools: Confluence, Jira, Draw.io (and much more during the multiple PoC implementation phase)
       - layout: left
         title: N-able (SolarWinds)
         link: https://n-able.com (https://solarwinds.com)
@@ -153,7 +158,7 @@ content:
   - title: Open Source activities
     layout: text
     content: |
-      I love all kinds of open source projects, so I'm trying to do something cool and/or useful :)
+      I love all kinds of open-source projects, so I'm trying to do something cool and/or useful :)
       - In the past was an active Russian WG21 member (C++ standardization committee): writing and reviewing proposals
       - Conan (Bincrafters): Packed several libraries for Conan package manager - packed a lot of different libraries (especially core image libraries). Was a Conan advocate (now I am a language-specific dependency manager advocate :)
       - Boost: added several utility algorithms to Boost.Algorithm library. Work on fuzzy search algorithms
@@ -162,6 +167,7 @@ content:
       - gImageReader: implemented better PDF support, small fixes
       - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
       - Set of Rust Teloxide-based Telegram based for several chats with large communities
+      - I am an active contributor to [Vector](https://vector.dev)
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
   - title: Programming interests
