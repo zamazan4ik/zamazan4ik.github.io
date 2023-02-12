@@ -48,7 +48,7 @@ linkedin_username: zamazan4ik
 about_title: Here should be some serious title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Alex and I'm a solution architect. I am mostly interested in designing and developing any kind of robust modern application (like cloud-native apps).
+  Hi, my name is Alex and I'm a solution architect. I am mostly interested in designing and developing any kind of robust modern application.
 
 content:
   - title: Experience # Title for the section
@@ -60,18 +60,20 @@ content:
         sub_title: Solution Architect
         caption: February 2022 - now
         description: |
+          - Help with preparing documentation templates for the architecture department in the company, evaluating existing practices, and improving them
+          - Initiated work on preparing and maintaining a tech radar in the company
+          - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish communication with multiple vendors
+          - Introduce initial cloud support to our on-premise only environment (an initial step on the hybrid-cloud journey)
           - Work closely with the Information Security department with defining and evaluating security standards across the company
-          - Design storage for security-related events (ad-hoc SIEM) in the company
-          - Reviving an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks about serverless architecture, C++ standardization process, PGO, and more advanced post-link optimizations, etc.
           - Mentoring system architects on different topics like modern monitoring approaches, k8s-native patterns, etc
+          - Reviving an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks about serverless architecture, C++ standardization process, PGO, and more advanced post-link optimizations, etc.
           - Start a process of migrating multiple log systems into the company-wide one, help with designing a central log system
           - Design central secret storage (based on Hashicorp Vault) usage across the company: cluster design, integration into multiple workflows
-          - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish communication with multiple vendors
+          - Design storage for security-related events (ad-hoc SIEM) in the company
           - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
-          - Introduce initial cloud support to our on-premise only environment (an initial step on the hybrid-cloud journey)
-          - Help with preparing documentation templates for the architecture department in the company, evaluating existing practices, and improving them
           - Participate in regular architecture meetings, and provide valuable feedback regarding multiple internal processes
-          - Tools: Confluence, Jira, Draw.io (and much more during the multiple PoC implementation phase)
+          - Tools: Confluence, Jira, Draw.io, Nextcloud (and much more during the multiple PoC implementation phase)
+          - Agile frameworks: SAFe (twice certified), Kanban
       - layout: left
         title: N-able (SolarWinds)
         link: https://n-able.com (https://solarwinds.com)
@@ -79,6 +81,9 @@ content:
         caption: February 2018 - February 2022
         description: |
           - Work on Cloud-To-Cloud product - a backup solution for Office365. Here I've got the following experience:
+          - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help the architecture team with threat modeling tooling evaluation
+          - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready 3rd party solutions, implementing proof of concepts, COGS estimation, presenting results, and much more
+          - Evaluate provided ARD from the architects and provide feedback as a developer representative
           - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in touch with Microsoft Graph API team for several workarounds
           - Being a part of an internal C++ committee. As a committee member, I've worked on internal C++ guidelines, adopted modern C++ features for the code base, investigated C++ Standard upgrades, helped with choosing dependency manager, etc.
           - Being a speaker on internal knowledge-sharing events (we call it TechCafe)
@@ -94,10 +99,7 @@ content:
           - Work with a support team as an on-duty developer
           - Work in a geographically dispersed team
           - Trying to push modern DevOps practices
-          - Evaluate provided ARD from the architects and provide feedback as a developer representative
           - Participate in regular releases
-          - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help the architecture team with threat modeling tooling evaluation
-          - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready 3rd party solutions, implementing proof of concepts, COGS estimation, presenting results, and much more
       - layout: left
         title: CIB Software
         sub_title: Software engineer (C++)
@@ -136,6 +138,7 @@ content:
       - Several C++ proposals ([Add more std::hash specializations](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1406r0.html), [Changing attack vector of the constexpr_vector](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0639r0.html), bunch of proposals about constexprifying C++ containers, Numerics TS)
       - My talks from the LVEE conferences were published in an international digest
       - Habr publications ([Algorithms for palindrom search](https://habr.com/ru/post/276195/), [Conan: package manager for C++ (ru)](https://habr.com/ru/post/342982/))
+      - An article about [Vector (ru)](https://medium.com/@zamazan4ik/vector-руководство-по-уходу-за-граблями-7e118bdc98e7)
   
   - title: Pet project (YourGame)
     layout: text
@@ -180,6 +183,10 @@ content:
   - title: Certificates
     layout: list
     content:
+      - layout: left
+        title: Enterprise Architect
+        caption: 2022
+        sub_title: ItExpert.ru  
       - layout: left
         title: Unity
         caption: 2021
