@@ -64,12 +64,15 @@ content:
           - Initiated work on preparing and maintaining a tech radar in the company
           - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish communication with multiple vendors
           - Introduce initial cloud support to our on-premise only environment (an initial step on the hybrid-cloud journey)
+          - Lead all discussions with external cloud providers like VkCloud, Yandex.Cloud, SberCloud  
           - Work closely with the Information Security department with defining and evaluating security standards across the company
-          - Mentoring system architects on different topics like modern monitoring approaches, k8s-native patterns, etc
+          - Help Information Security department with implementing a regulator requirements regarding PII usage across the systems
+          - Mentoring system architects and engineering teams on different topics like modern monitoring approaches, k8s-native patterns, etc
           - Reviving an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks about serverless architecture, C++ standardization process, PGO, and more advanced post-link optimizations, etc.
           - Start a process of migrating multiple log systems into the company-wide one, help with designing a central log system
           - Design central secret storage (based on Hashicorp Vault) usage across the company: cluster design, integration into multiple workflows
           - Design storage for security-related events (ad-hoc SIEM) in the company
+          - Design a new Video Conference System for the company and integrate it into the multiple products  
           - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
           - Participate in regular architecture meetings, and provide valuable feedback regarding multiple internal processes
           - Tools: Confluence, Jira, Draw.io, Nextcloud (and much more during the multiple PoC implementation phase)
@@ -171,6 +174,7 @@ content:
       - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
       - Set of Rust Teloxide-based Telegram based for several chats with large communities
       - I am an active contributor to [Vector](https://vector.dev)
+      - Advertising Profile-Guided Optimization (PGO) across the industry: https://github.com/zamazan4ik/awesome-pgo  
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
   - title: Programming interests
