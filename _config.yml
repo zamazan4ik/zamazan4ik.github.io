@@ -51,7 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Alex and I'm a solution architect. I am mostly interested in designing and developing any kind of robust modern application.
 
 content:
-  - title: Experience # Title for the section
+  - title: Experience
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -61,21 +61,23 @@ content:
         caption: February 2022 - now
         description: |
           - Help with preparing documentation templates for the architecture department in the company, evaluating existing practices, and improving them
-          - Initiated work on preparing and maintaining a tech radar in the company
+          - Initiated work on preparing and maintaining a tech radar for the company's IT landscape
           - Help to define business strategy regarding video conferencing future in the company. Evaluate several video conferencing solutions in the market and establish communication with multiple vendors
-          - Introduce initial cloud support to our on-premise only environment (an initial step on the hybrid-cloud journey)
-          - Lead all discussions with external cloud providers like VkCloud, Yandex.Cloud, SberCloud  
-          - Work closely with the Information Security department with defining and evaluating security standards across the company
-          - Help Information Security department with implementing a regulator requirements regarding PII usage across the systems
-          - Mentoring system architects and engineering teams on different topics like modern monitoring approaches, k8s-native patterns, etc
-          - Reviving an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks about serverless architecture, C++ standardization process, PGO, and more advanced post-link optimizations, etc.
-          - Start a process of migrating multiple log systems into the company-wide one, help with designing a central log system
+          - Introduce initial cloud support to our on-premise-only environment (an initial step on the hybrid-cloud journey)
+          - Lead all discussions with external cloud providers like VK Cloud, Yandex.Cloud, SberCloud
+          - Participate in migration process from VMs to Kubernetes platform (on-premise installation)
+          - Work closely with the Information Security department, evaluate and improve security standards across the company
+          - Help the Information Security department with implementing regulator requirements (GDPR-like) regarding PII usage across the systems
+          - Design a roadmap for how the company implements GDPR-like requirements across all systems in the company
+          - Mentor system architects and engineering teams on different topics like modern monitoring approaches, k8s-native patterns, etc
+          - Start an initiative inside the company regarding internal conferences (as a part of knowledge-sharing activities). Gave multiple talks: "Serverless architecture", "C++ standardization process", "Profile-Guided Optimization (PGO) and beyond", "C++ sanitizers", "HashiCorp Vault", "PII requirements for data", etc.
+          - Start migration process of multiple log systems into the company-wide one, help with designing a central log system
           - Design central secret storage (based on Hashicorp Vault) usage across the company: cluster design, integration into multiple workflows
           - Design storage for security-related events (ad-hoc SIEM) in the company
           - Design a new Video Conference System for the company and integrate it into the multiple products  
           - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
           - Participate in regular architecture meetings, and provide valuable feedback regarding multiple internal processes
-          - Tools: Confluence, Jira, Draw.io, Nextcloud (and much more during the multiple PoC implementation phase)
+          - Tools: Confluence, Jira, Draw.io
           - Agile frameworks: SAFe (twice certified), Kanban
       - layout: left
         title: N-able (SolarWinds)
@@ -86,7 +88,7 @@ content:
           - Work on Cloud-To-Cloud product - a backup solution for Office365. Here I've got the following experience:
           - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help the architecture team with threat modeling tooling evaluation
           - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready 3rd party solutions, implementing proof of concepts, COGS estimation, presenting results, and much more
-          - Evaluate provided ARD from the architects and provide feedback as a developer representative
+          - Evaluate provided ADRs from the architects and provide feedback as a developer representative
           - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in touch with Microsoft Graph API team for several workarounds
           - Being a part of an internal C++ committee. As a committee member, I've worked on internal C++ guidelines, adopted modern C++ features for the code base, investigated C++ Standard upgrades, helped with choosing dependency manager, etc.
           - Being a speaker on internal knowledge-sharing events (we call it TechCafe)
@@ -94,7 +96,7 @@ content:
           - Investigate using fuzzers (AFL, Libfuzeer-based, self-hosted Oss-Fuzz) for some parts of our code
           - Push forward continuous performance testing
           - Push forward using Google Sanitizers on CI as a part of an internal workflow
-          - Help with building our solution on Windows platform with Clang - fixing Clang-specific stuff on Windows
+          - Help with building our solution on the Windows platform with Clang - fixing Clang-specific stuff on Windows
           - Port our solution to ARM architecture (AWS Graviton CPUs)
           - Design from the scratch storage format for SharePoint feature
           - Implement several Proof-of-Concept for features like OneDrive restore
@@ -133,7 +135,8 @@ content:
       - LVEE 2018 Summer "Automatic bug search in C/C++" (ru)([video](https://www.youtube.com/watch?v=PiVgqEyBqT8))
       - CoreHard 2018 Autumn "What cannot be optimized by C++ compilers" (ru)([video](https://www.youtube.com/watch?v=dAmhGElNUX0))
       - CoreHard Zoom-based talk about a culture of coding in the C++ community
-      - Was an invited expert on C++ Russia 2020, moderated several talks
+      - An invited expert on C++ Russia 2020, moderated several talks
+      - A talk about SolarWinds hack and the stuff around that (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638)) on TechSpot Online Meetup 2022
 
   - title: Publications
     layout: text
@@ -172,8 +175,9 @@ content:
       - PRLib: a library with several image preprocessing algorithms: [link](https://github.com/ZaMaZaN4iK/prlib)
       - gImageReader: implemented better PDF support, small fixes
       - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
-      - Set of Rust Teloxide-based Telegram based for several chats with large communities
-      - I am an active contributor to [Vector](https://vector.dev)
+      - Set of Rust Teloxide-based Telegram-based for several chats with large communities
+      - A semi-active contributor to [Vector](https://vector.dev)
+      - The main admin in the largest Russian-speaking Telegram-based communities about [Vector](https://vector.dev) and [Grafana Loki](https://grafana.com/oss/loki/)
       - Advertising Profile-Guided Optimization (PGO) across the industry: https://github.com/zamazan4ik/awesome-pgo  
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
@@ -182,7 +186,7 @@ content:
     content: |
       I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I've read a lot of articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
 
-      Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems.
+      Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems. Also, interested in building robust socio-technical systems.
 
   - title: Certificates
     layout: list
@@ -194,7 +198,7 @@ content:
       - layout: left
         title: Unity
         caption: 2021
-        sub_title: Unity Essentials and Unity Junior pathways
+        sub_title: Unity Essentials and Unity Junior pathways (just for fun)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -212,7 +216,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Gaming (especially RPG and slashers)
+      - Gaming (especially RPG and slashers like DA:O, Nier, DMC, Bayonetta, MGRR)
       - Anime
 
 # Footer
