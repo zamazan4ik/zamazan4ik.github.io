@@ -110,7 +110,7 @@ content:
         sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
-          - I've worked on several projects: CIB PDF Brewer (Windows desktop application that works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithms), CIB OCR (proprietary Tesseract-based OCR system with several enhancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
+          - Work on several projects: CIB PDF Brewer (Windows desktop application that works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithms), CIB OCR (proprietary Tesseract-based OCR system with several enhancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
           - Being the only developer on IPL and OCR, so manage the full lifecycle: several discussions with business and support, planning, make design and implementation, testing (manual and with autotests), release
           - Do research & development (R&D) for different image-related algorithms like Mixed-Raster Compression (MRC), real-time edge detection, PDF reverse engineering, etc.
           - Integrate the libraries with other products
