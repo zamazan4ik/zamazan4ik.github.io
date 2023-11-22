@@ -85,12 +85,12 @@ content:
         sub_title: Software engineer (mostly C++)
         caption: February 2018 - February 2022
         description: |
-          - Work on Cloud-To-Cloud product - a backup solution for Office365. Here I've got the following experience:
+          - Work on Cloud-To-Cloud product - a backup solution for Office365.
           - Lead threat modeling activities in our team: prepare all required artifacts, facilitate threat modeling sessions, work with an architecture team and security experts on the threat model stabilization, help the architecture team with threat modeling tooling evaluation
           - Perform end-to-end log solution design (identifying and engaging stakeholders, gathering functional and quality requirements, comparing different ready and semi-ready 3rd party solutions, implementing proof of concepts, COGS estimation, presenting results, and much more
           - Evaluate provided ADRs from the architects and provide feedback as a developer representative
           - Get huge experience with Microsoft Graph API, Exchange API, SharePoint Online REST API. Work in touch with Microsoft Graph API team for several workarounds
-          - Being a part of an internal C++ committee. As a committee member, I've worked on internal C++ guidelines, adopted modern C++ features for the code base, investigated C++ Standard upgrades, helped with choosing dependency manager, etc.
+          - Being a part of an internal C++ committee. As a committee member, I was working on internal C++ guidelines, adopted modern C++ features for the code base, investigated C++ Standard upgrades, helped with choosing dependency manager, etc.
           - Being a speaker on internal knowledge-sharing events (we call it TechCafe)
           - Push using Clang-Format for our sources. Compared clang-format to code formatting tools (like uncrustify), review several code styles, preparing clang-format builds and proper internal documentation
           - Investigate using fuzzers (AFL, Libfuzeer-based, self-hosted Oss-Fuzz) for some parts of our code
@@ -110,7 +110,7 @@ content:
         sub_title: Software engineer (C++)
         caption: June 2016 - February 2018
         description: | # this will include new lines to allow paragraphs
-          - Work on several projects: CIB PDF Brewer (Windows desktop application that works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithms), CIB OCR (proprietary Tesseract-based OCR system with several enhancements), CIB PDF (proprietary library for work with PDF files). Here I've got the following experience:
+          - Work on several projects: CIB PDF Brewer (Windows desktop application that works with printers), CIB IPL (proprietary OpenCV-and-ImageMagick-based library with different classic computer vision algorithms), CIB OCR (proprietary Tesseract-based OCR system with several enhancements), CIB PDF (proprietary library for work with PDF files).
           - Being the only developer on IPL and OCR, so manage the full lifecycle: several discussions with business and support, planning, make design and implementation, testing (manual and with autotests), release
           - Do research & development (R&D) for different image-related algorithms like Mixed-Raster Compression (MRC), real-time edge detection, PDF reverse engineering, etc.
           - Integrate the libraries with other products
@@ -184,7 +184,7 @@ content:
   - title: Programming interests
     layout: text
     content: |
-      I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I've read a lot of articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
+      I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I was reading a lot of papers and articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
 
       Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems. Also, interested in building robust socio-technical systems.
 
