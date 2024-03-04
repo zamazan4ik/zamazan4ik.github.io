@@ -74,7 +74,8 @@ content:
           - Start migration process of multiple log systems into the company-wide one, help with designing a central log system
           - Design central secret storage (based on Hashicorp Vault) usage across the company: cluster design, integration into multiple workflows
           - Design storage for security-related events (ad-hoc SIEM) in the company
-          - Design a new Video Conference System for the company and integrate it into the multiple products  
+          - Design a new Video Conference System for the company and integrate it into the multiple products
+          - Lead activity about introducing LLM into the company landscape: evaluate current industry approaches, working with SaaS vendors, evaluate new risks and mitigations, review corresponding laws, establish process around LLM in the company, etc.
           - Redesign highly-available ElasticSearch cluster across several data centers. On this project I did some reverse-engineering of existing solutions, identifying stakeholders, collecting functional and non-functional requirements, evaluating data centers availability optimizing ElasticSearch configuration in several dimensions (redundancy like replicas count, performance characteristics like optimal shard size, and using proper Java GC, scalability)
           - Participate in regular architecture meetings, and provide valuable feedback regarding multiple internal processes
           - Tools: Confluence, Jira, Draw.io
@@ -136,7 +137,8 @@ content:
       - CoreHard 2018 Autumn "What cannot be optimized by C++ compilers" (ru)([video](https://www.youtube.com/watch?v=dAmhGElNUX0))
       - CoreHard Zoom-based talk about a culture of coding in the C++ community
       - An invited expert on C++ Russia 2020, moderated several talks
-      - A talk about SolarWinds hack and the stuff around that (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638)) on TechSpot Online Meetup 2022
+      - TechSpot 2022 Cybersecurity meetup "SolarWinds hack and all the stuff around that" (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638))
+      - TechSpot 2024 Performance meetup "Profile-Guided Optimization (PGO): 101" (en)([video](https://www.youtube.com/watch?v=80QJllNxyps), [slides](https://docs.google.com/presentation/d/14y6JOZwdVXsZdunEA2SoN8_91syvNJp9uVEkqiES3U4/edit?usp=sharing))
 
   - title: Publications
     layout: text
