@@ -139,6 +139,7 @@ content:
       - An invited expert on C++ Russia 2020, moderated several talks
       - TechSpot 2022 Cybersecurity meetup "SolarWinds hack and all the stuff around that" (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638))
       - TechSpot 2024 Performance meetup "Profile-Guided Optimization (PGO): 101" (en)([video](https://www.youtube.com/watch?v=80QJllNxyps), [slides](https://docs.google.com/presentation/d/14y6JOZwdVXsZdunEA2SoN8_91syvNJp9uVEkqiES3U4/edit?usp=sharing))
+      - Winglang Community Meeting March 2024 "Profile-Guided Optimization (PGO) for Winglang" (en)
 
   - title: Publications
     layout: text
