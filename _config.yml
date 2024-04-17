@@ -55,8 +55,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Byvoice (TCP-Soft, MangoTelecom)
-        link: https://www.byvoice.io (https://www.tcp-soft.com https://www.mango-office.ru)
+        title: Byvoice
+        link: https://www.byvoice.io
         sub_title: Solution Architect
         caption: February 2022 - now
         description: |
