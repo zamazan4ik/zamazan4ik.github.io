@@ -141,6 +141,8 @@ content:
       - TechSpot 2024 Performance meetup "Profile-Guided Optimization (PGO): 101" (en)([video](https://www.youtube.com/watch?v=80QJllNxyps), [slides](https://docs.google.com/presentation/d/14y6JOZwdVXsZdunEA2SoN8_91syvNJp9uVEkqiES3U4/edit?usp=sharing))
       - Winglang Community Meeting March 2024 "Profile-Guided Optimization (PGO) for Winglang" (en)
       - Tech Internals Conf 2024, Cyprus "Profile-Guided Optimization (PGO): (Ab)using it for fun and profit": [abstract](https://internals.tech/2024/abstracts/9746)
+      - OxidizeConf 2024, Berlin "Profile-Guided Optimization (PGO) in Rust - 101": [abstract](https://oxidizeconf.com/sessions/pgo/)
+      - RustFest 2024, Zurich "Profile-Guided Optimization (PGO) in Rust: unknown parts": [abstract](https://rustfest.ch/talks/profile-guided-optimization/)
 
   - title: Publications
     layout: text
