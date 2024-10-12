@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alexander Zaitsev
-title: Solution Architect, software engineer (mostly C++/Rust), a little bit DevOps
+title: CTO, architect, software engineer (mostly C++/Rust), a little bit DevOps
 email: zamazan4ik@tut.by
 website: https://zamazan4ik.github.io
 
@@ -48,12 +48,21 @@ linkedin_username: zamazan4ik
 about_title: Here should be some serious title
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Alex and I'm a solution architect. I am mostly interested in designing and developing any kind of robust modern application.
+  Hi, my name is Alex and I'm a CTO. If you wanted to find a technology-savvy person who cares not only about computers but about your business too at the same time - you found the right person!
 
 content:
   - title: Experience
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Cytopus
+        link: https://www.cytopus.com
+        sub_title: CTO
+        caption: July 2024 - now
+        description: |
+          - Perform regular high-level research across current threats in the cybersecurity domain
+          - Track and analyze all ongoing developments in the EU regulatory field in domains of cybersecurity, data protection and AI
+          - Co-found Cytopus
       - layout: left
         title: Byvoice
         link: https://www.byvoice.io
@@ -193,37 +202,6 @@ content:
       I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I was reading a lot of papers and articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
 
       Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems. Also, interested in building robust socio-technical systems.
-
-  - title: Certificates
-    layout: list
-    content:
-      - layout: left
-        title: Enterprise Architect
-        caption: 2022
-        sub_title: ItExpert.ru  
-      - layout: left
-        title: Unity
-        caption: 2021
-        sub_title: Unity Essentials and Unity Junior pathways (just for fun)
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Belarusian State Technological University
-        caption: 2015 - 2019
-        sub_title: BSc Computer Science
-      - layout: left
-        title: Brest Regional Lyceum
-        caption: 2013 - 2015
-        sub_title: Physics and Math
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Gaming (especially RPG and slashers like DA:O, Nier, DMC, Bayonetta, MGRR)
-      - Anime
 
 # Footer
 footer_show_references: true
