@@ -152,6 +152,8 @@ content:
       - Tech Internals Conf 2024, Cyprus "Profile-Guided Optimization (PGO): (Ab)using it for fun and profit": [abstract](https://internals.tech/2024/abstracts/9746)
       - OxidizeConf 2024, Berlin "Profile-Guided Optimization (PGO) in Rust - 101": [abstract](https://oxidizeconf.com/sessions/pgo/), [video](https://www.youtube.com/watch?v=1RmNfO84z_M)
       - RustFest 2024, Zurich "Profile-Guided Optimization (PGO) in Rust: unknown parts": [abstract](https://rustfest.ch/talks/profile-guided-optimization/)
+      - p99conf 2024, "Profile-Guided Optimization (PGO): (Ab)using it for Fun and Profit": [link](https://www.p99conf.io/session/__trashed-2/)
+      - RustLab 2024, Florence "Profile-Guided Optimization (PGO) for Rust applications: Practical Guide": [abstract](https://rustlab.it/talks/profile-guided-optimization-pgo-for-rust-applications-practical-guide)
 
   - title: Publications
     layout: text
