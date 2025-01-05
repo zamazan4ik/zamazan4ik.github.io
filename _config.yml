@@ -149,7 +149,7 @@ content:
       - TechSpot 2022 Cybersecurity meetup "SolarWinds hack and all the stuff around that" (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638))
       - TechSpot 2024 Performance meetup "Profile-Guided Optimization (PGO): 101" ([video](https://www.youtube.com/watch?v=80QJllNxyps), [slides](https://docs.google.com/presentation/d/14y6JOZwdVXsZdunEA2SoN8_91syvNJp9uVEkqiES3U4/edit?usp=sharing))
       - Winglang Community Meeting March 2024 "Profile-Guided Optimization (PGO) for Winglang"
-      - Tech Internals Conf 2024, Cyprus "Profile-Guided Optimization (PGO): (Ab)using it for fun and profit": [abstract](https://internals.tech/2024/abstracts/9746)
+      - Tech Internals Conf 2024, Cyprus "Profile-Guided Optimization (PGO): (Ab)using it for fun and profit": ([video](https://www.youtube.com/watch?v=69H9bRTeld8), [slides](https://docs.google.com/presentation/d/1kvE7YdD6HFQ5Pjzd-dB3EMw770JqKl35Dtlep6sZzT4/edit?usp=sharing))
       - OxidizeConf 2024, Berlin "Profile-Guided Optimization (PGO) in Rust - 101": [abstract](https://oxidizeconf.com/sessions/pgo/), [video](https://www.youtube.com/watch?v=1RmNfO84z_M)
       - RustFest 2024, Zurich "Profile-Guided Optimization (PGO) in Rust: unknown parts": [abstract](https://rustfest.ch/talks/profile-guided-optimization/)
       - p99conf 2024, "Profile-Guided Optimization (PGO): (Ab)using it for Fun and Profit": [link](https://www.p99conf.io/session/__trashed-2/)
