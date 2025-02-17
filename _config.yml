@@ -154,6 +154,7 @@ content:
       - RustFest 2024, Zurich "Profile-Guided Optimization (PGO) in Rust: unknown parts": [abstract](https://rustfest.ch/talks/profile-guided-optimization/)
       - p99conf 2024, "Profile-Guided Optimization (PGO): (Ab)using it for Fun and Profit": [link](https://www.p99conf.io/session/__trashed-2/)
       - RustLab 2024, Florence "Profile-Guided Optimization (PGO) for Rust applications: Practical Guide": [abstract](https://rustlab.it/talks/profile-guided-optimization-pgo-for-rust-applications-practical-guide)
+      - FOSDEM 2025, "Profile-Guided Optimization (PGO) in LLVM: current challenges from the adopter perspective": [video](https://fosdem.org/2025/schedule/event/fosdem-2025-4109-profile-guided-optimization-pgo-in-llvm-current-challenges-from-the-adopter-perspective/)
 
   - title: Publications
     layout: text
