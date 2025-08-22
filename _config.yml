@@ -46,7 +46,7 @@ linkedin_username: zamazan4ik
 
 # About Section
 about_title: Here should be some serious title
-about_profile_image: images/profile.jpg
+about_profile_image: images/my_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Alex and I'm a CTO. If you wanted to find a technology-savvy person who cares not only about computers but about your business too at the same time - you found the right person!
 
@@ -60,9 +60,19 @@ content:
         sub_title: CTO
         caption: July 2024 - now
         description: |
+          - Cytopus co-founder
+          - Develop company's services list for potential customers like pentest services, SIEM-as-a-Service, SOC-as-a-Service, cybertrainings, regulation-specific services like CRA/NIS2/DORA/EU AI Act audit
           - Perform regular high-level research across current threats in the cybersecurity domain
           - Track and analyze all ongoing developments in the EU regulatory field in domains of cybersecurity, data protection and AI
-          - Co-found Cytopus
+          - Represent company at different conferences and meetups
+          - Perform hiring routines (CVs review, screening and actual interviews with candidates)
+          - Partnership discussions with various companies and stakeholders
+      - layout: left
+        title: NDA (an iGaming company, part time involvement)
+        sub_title: Lead Architect
+        caption: August 2025 - now
+        description: |
+          - Lead iGaming platform design routines from the day one. Responsible for almost all technical decisions across the development process: technology selection for various parts of the platform (databases, development tools and approaches, communication protocols, etc.), establishing development process, planning technical roadmaps for the product
       - layout: left
         title: Byvoice
         link: https://www.byvoice.io
@@ -114,7 +124,7 @@ content:
           - Work with a support team as an on-duty developer
           - Work in a geographically dispersed team
           - Trying to push modern DevOps practices
-          - Participate in regular releases
+          - Participate in regular release routines
       - layout: left
         title: CIB Software
         sub_title: Software engineer (C++)
@@ -129,7 +139,7 @@ content:
           - Port the libraries to Android x64
           - Integrate the libraries with an Android application with SWIG and JNI
           - Integrate an application into MS Office (Word, Excel, PowerPoint) application as an addin
-          - Use C++ <-> C# interop for MS Office Addins
+          - Develop MS Office Addins in C++ and C#
 
   - title: Conferences
     layout: text
@@ -145,7 +155,7 @@ content:
       - LVEE 2018 Summer "Automatic bug search in C/C++" (ru)([video](https://www.youtube.com/watch?v=PiVgqEyBqT8))
       - CoreHard 2018 Autumn "What cannot be optimized by C++ compilers" (ru)([video](https://www.youtube.com/watch?v=dAmhGElNUX0))
       - CoreHard Zoom-based talk about a culture of coding in the C++ community
-      - An invited expert on C++ Russia 2020, moderated several talks
+      - An invited expert on C++ Russia 2020 and 2024, moderated several talks
       - TechSpot 2022 Cybersecurity meetup "SolarWinds hack and all the stuff around that" (ru)([video](https://www.youtube.com/live/FaGBky0gWqo?si=YE3Y3E9lKXmcdP7m&t=1638))
       - TechSpot 2024 Performance meetup "Profile-Guided Optimization (PGO): 101" ([video](https://www.youtube.com/watch?v=80QJllNxyps), [slides](https://docs.google.com/presentation/d/14y6JOZwdVXsZdunEA2SoN8_91syvNJp9uVEkqiES3U4/edit?usp=sharing))
       - Winglang Community Meeting March 2024 "Profile-Guided Optimization (PGO) for Winglang"
@@ -195,16 +205,17 @@ content:
       - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
       - Set of Rust Teloxide-based Telegram-based for several chats with large communities
       - A semi-active contributor to [Vector](https://vector.dev)
+      - For several years was an active moderator for largest Telegram-based C++ communities (pro.cxx, supapro.cxx) 
       - The main admin in the largest Russian-speaking Telegram-based communities about [Vector](https://vector.dev) and [Grafana Loki](https://grafana.com/oss/loki/)
-      - Advertising Profile-Guided Optimization (PGO) across the industry: https://github.com/zamazan4ik/awesome-pgo  
+      - Integrating Profile-Guided Optimization (PGO) and Link-Time Optimization (LTO) across the industry: https://github.com/zamazan4ik/awesome-pgo  
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
 
   - title: Programming interests
     layout: text
     content: |
-      I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I was reading a lot of papers and articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems (you can check my diploma project).
+      I had and have different interests in different computer science areas. Some years ago I was crazy about image pre and post-OCR processing. I was reading a lot of papers and articles and even implemented PRLIB. But this area is too specific (at least I think so) and later I switched to another area: compilers and static analysis. Mostly I was (and a little am) interested in compiler optimizations and static analysis problems.
 
-      Now for me is interesting to design and develop modern cloud-based highly-scalable high-performance (throughput and latency) systems. Also, interested in building robust socio-technical systems.
+      My current interest is in applying data-driven approaches to different computer science domains.
 
 # Footer
 footer_show_references: true
