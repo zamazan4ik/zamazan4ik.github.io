@@ -45,7 +45,7 @@ linkedin_username: zamazan4ik
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Here should be some serious title
+# about_title: Here should be some serious title
 about_profile_image: images/my_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Alex and I'm a CTO. If you wanted to find a technology-savvy person who cares not only about computers but about your business too at the same time - you found the right person!
