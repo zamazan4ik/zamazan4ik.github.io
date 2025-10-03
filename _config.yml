@@ -74,6 +74,18 @@ content:
         description: |
           - Lead iGaming platform design routines from the day one. Responsible for almost all technical decisions across the development process: technology selection for various parts of the platform (databases, development tools and approaches, communication protocols, etc.), establishing development process, planning technical roadmaps for the product
       - layout: left
+        title: NDA (iGaming platform)
+        sub_title: Main architect
+        caption: August 2025 - October 2025
+        description: |
+          - Be the main architect (report directly to CTO)
+          - Design iGaming platform from the scratch (a greenfield project)
+          - Evaluate and integrate with 3rd party game providers. Establish communication channel, lead technical communications, gather and evaluate technical details about an integration
+          - Help with hiring a tech team
+          - Maintain and own the whole technical landscape: all environments, PROD/DEV envs, back office, etc.
+          - Perform all reauired investigations regarding high-level technical decisions (e.g. "Build or Buy" stuff)
+          - Maintain CapEx and OpEx under control
+      - layout: left
         title: Byvoice
         link: https://www.byvoice.io
         sub_title: Solution Architect
