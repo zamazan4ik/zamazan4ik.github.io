@@ -165,6 +165,9 @@ content:
       - p99conf 2024, "Profile-Guided Optimization (PGO): (Ab)using it for Fun and Profit": [link](https://www.p99conf.io/session/__trashed-2/)
       - RustLab 2024, Florence "Profile-Guided Optimization (PGO) for Rust applications: Practical Guide": [abstract](https://rustlab.it/talks/profile-guided-optimization-pgo-for-rust-applications-practical-guide)
       - FOSDEM 2025, "Profile-Guided Optimization (PGO) in LLVM: current challenges from the adopter perspective": [video](https://fosdem.org/2025/schedule/event/fosdem-2025-4109-profile-guided-optimization-pgo-in-llvm-current-challenges-from-the-adopter-perspective/)
+      - Rustikon 2025, "Profile-Guided Optimization (PGO) in Rust: unknown parts": [abstract](https://typeville-56ef49ad5026668-50d7dd91c8034.webflow.io/talk/profile-guided-optimization-pgo-in-rust-unknown-parts), [video](https://www.youtube.com/watch?v=VPcH63xrysY)
+      - FOSDEM 2026, "Profile-Guided Optimization (PGO) in Go: current state and challenges": [abstract](https://fosdem.org/2026/schedule/event/L7XZ78-profile-guided_optimization_pgo_in_go_current_state_and_challenges/), [video](https://cuddly.tube/w/81rPT6yW5bf716utUzvqQ6)
+      - FOSDEM 2026, "Accessible software performance": [abstract](https://fosdem.org/2026/schedule/event/TYX3FF-accessible_software_performance/),
 
   - title: Publications
     layout: text
@@ -207,8 +210,9 @@ content:
       - A semi-active contributor to [Vector](https://vector.dev)
       - For several years was an active moderator for largest Telegram-based C++ communities (pro.cxx, supapro.cxx) 
       - The main admin in the largest Russian-speaking Telegram-based communities about [Vector](https://vector.dev) and [Grafana Loki](https://grafana.com/oss/loki/)
-      - Integrating Profile-Guided Optimization (PGO) and Link-Time Optimization (LTO) across the industry: https://github.com/zamazan4ik/awesome-pgo  
+      - Integrating Profile-Guided Optimization (PGO) and Link-Time Optimization (LTO) across the industry aka "Awesome PGO" project: https://github.com/zamazan4ik/awesome-pgo  
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
+      - FOSDEM 2026 "Software Performance" devroom organizer
 
   - title: Programming interests
     layout: text
