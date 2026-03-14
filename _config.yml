@@ -55,10 +55,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: N-able
+        link: https://www.n-able.com/
+        sub_title: Staff Software Engineer
+        caption: March 2026 - now
+        description: |
+          - Lead Rust adoption in the company for new and existing projects
+          - Actively participate in AI integration into the SDLC processes in the company
+      - layout: left
         title: Cytopus
         link: https://www.cytopus.com
         sub_title: CTO
-        caption: July 2024 - now
+        caption: July 2024 - March 2025
         description: |
           - Cytopus co-founder
           - Develop company's services list for potential customers like pentest services, SIEM-as-a-Service, SOC-as-a-Service, cybertrainings, regulation-specific services like CRA/NIS2/DORA/EU AI Act audit
