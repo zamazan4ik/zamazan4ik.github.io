@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 twitter_username: zamazan4ik
-github_username:  zamazan4ik
+github_username: zamazan4ik
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 facebook_username: zamazan4ik
@@ -177,6 +177,7 @@ content:
       - FOSDEM 2026, "Profile-Guided Optimization (PGO) in Go: current state and challenges": [abstract](https://fosdem.org/2026/schedule/event/L7XZ78-profile-guided_optimization_pgo_in_go_current_state_and_challenges/), [video](https://cuddly.tube/w/81rPT6yW5bf716utUzvqQ6)
       - FOSDEM 2026, "Accessible software performance": [abstract and video](https://fosdem.org/2026/schedule/event/TYX3FF-accessible_software_performance/)
       - Rustikon 2026, "Let's talk about Link-Time Optimization": [abstract](https://www.rustikon.dev/talk/lets-talk-about-link-time-optimization-lto)
+      - Rustmeet 2026, "Tips and tricks for Profile-Guided Optimization (PGO) in practice": [abstract](https://rustmeet.eu/tips-and-tricks-for-profile-guided-optimization-in-practice/)
 
   - title: Publications
     layout: text
@@ -185,7 +186,7 @@ content:
       - My talks from the LVEE conferences were published in an international digest
       - Habr publications ([Algorithms for palindrom search](https://habr.com/ru/post/276195/), [Conan: package manager for C++ (ru)](https://habr.com/ru/post/342982/))
       - An article about [Vector (ru)](https://medium.com/@zamazan4ik/vector-руководство-по-уходу-за-граблями-7e118bdc98e7)
-  
+
   - title: Pet project (YourGame)
     layout: text
     content: |
@@ -217,9 +218,9 @@ content:
       - Maintained rust-serverless project: we maintain Docker image for using AWS Lambda with Rust
       - Set of Rust Teloxide-based Telegram-based for several chats with large communities
       - A semi-active contributor to [Vector](https://vector.dev)
-      - For several years was an active moderator for largest Telegram-based C++ communities (pro.cxx, supapro.cxx) 
+      - For several years was an active moderator for largest Telegram-based C++ communities (pro.cxx, supapro.cxx)
       - The main admin in the largest Russian-speaking Telegram-based communities about [Vector](https://vector.dev) and [Grafana Loki](https://grafana.com/oss/loki/)
-      - Integrating Profile-Guided Optimization (PGO) and Link-Time Optimization (LTO) across the industry aka "Awesome PGO" project: https://github.com/zamazan4ik/awesome-pgo  
+      - Integrating Profile-Guided Optimization (PGO) and Link-Time Optimization (LTO) across the industry aka "Awesome PGO" project: https://github.com/zamazan4ik/awesome-pgo
       - A lot of small fixes in several libraries and applications (see my GitHub account history)
       - FOSDEM 2026 "Software Performance" devroom organizer
 
@@ -242,4 +243,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
