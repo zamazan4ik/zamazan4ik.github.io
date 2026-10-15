@@ -55,6 +55,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Stealth Startup
+        link: N/A
+        sub_title: Founder
+        caption: March 2025 - now
+        description: |
+          - Develop an automatic cost-optimization infrastructure platform, based on applying software & hardware optimizations at scale
+      - layout: left
         title: N-able
         link: https://www.n-able.com/
         sub_title: Staff Software Engineer
